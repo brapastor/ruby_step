@@ -9,6 +9,7 @@ cantidad.times do |pos|
   alumnos << {nombre: "Alumno#{pos}", edad: rand(30)}
 end
 
+
 alumnos.each do |alumno|
   # puts alumno[:nombre]
   puts "#{alumno[:nombre]} tiene #{alumno[:edad]}"
